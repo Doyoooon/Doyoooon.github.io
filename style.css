@@ -1,0 +1,21 @@
+/*
+selecteur {
+    propriété : valeur ;
+}
+*/
+
+body{
+    background: orangered;
+    font-family: sans-serif;
+}
+
+h1,h2{
+    color:white;
+    font-family: windsor, 'Courier New', Courier, monospace;
+}
+
+.wrap{
+    background-color: green;
+    width:1400px;
+    margin:auto;
+}
