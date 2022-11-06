@@ -1,0 +1,201 @@
+/*
+selecteur {
+    propriété : valeur ;
+}
+*/
+
+
+style
+#topMenu {
+height: 30px;
+width: 3000px;display: grid;
+grid-template-columns: 1fr auto;
+align-items: baseline;
+}
+#topMenu ul li {
+list-style: none;
+color: white;
+/* background-color:white; */
+float: left;
+/* line-height: 30px; */
+vertical-align: middle;
+text-align: center;
+}
+#topMenu .menuLink {
+text-decoration:none;
+color: black;
+display: block;
+padding:0 1em ;
+font-size: 30px;
+font-size: clamp(24px,4vw,60px);
+font-weight: bold;
+font-family:창원단감아삭, PicNic, Arial, Helvetica;
+-webkit-text-size-adjust: auto;
+}
+#topMenu .menuLink:hover {
+color:red;
+/* background-color:yellow; */
+
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    align-items: center;
+}
+
+
+
+.header a{
+    color:currentColor;
+    text-decoration: none;
+}
+
+
+body{ 
+    background-color:white;
+    font-family: sans-serif;
+    
+}
+
+.wrap{
+    max-width: 1340px;
+    margin:auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    color:black;
+    font-family: striated, Ultra, Arial, Helvetica, sans-serif;
+    padding: 5px;
+    /* border-bottom:2px solid red; */
+    align-items: end;
+    
+}
+
+
+
+h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 100;
+    align-content: flex-start;
+}
+
+p1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 150%;
+    align-content: flex-start;
+    
+}
+
+h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-weight:bold
+}
+
+.body-title{
+    justify-self:left;
+    align-self:auto;
+    grid-column: 1/2;
+}
+
+hr{
+    width : 100%;
+    height: 3px;
+	background-color : red;
+	border : 0;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:24px;
+    gap:10px;
+ 
+}
+
+.grid a{
+    display: grid;
+    text-decoration: none;
+}
+
+.grid a:hover p{
+    opacity: 100%;
+}
+
+.grid a *{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+}
+
+.grid a p{
+    z-index: 999;
+    opacity:0; 
+    /* object-fit: 100%; */
+        color:invert;
+        /* background: white; */
+        text-align:start;
+        font-family: Arial,창원단감아삭;
+        font-weight:100;
+        font-size: 20px;
+        /* margin-left: 20px; */
+        margin-top: 0;
+        /* transition: 0.5s; */
+    }
+    
+
+ .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:24px;
+    gap:20px;
+ 
+}
+    
+#tothetop { 
+    position:inherit; bottom: 5rem; right: 5rem; cursor: pointer; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-weight:bold;
+    color : black;
+    
+}
+
+#tothetop_ {
+    position:fixed; bottom: 3rem; right: 3rem; cursor: pointer; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-weight:bold;
+    color : black;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap:24px;
+    gap:10px;
+ 
+}
+
+mark{background-color: white;
+}
