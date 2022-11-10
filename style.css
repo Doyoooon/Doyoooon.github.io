@@ -11,7 +11,7 @@ selecteur {
 }
 @font-face {
     font-family: 'PicNic-Regular';
-    src: url('https://velvetyne.fr/fonts/picnic/download/') format('woff');
+    src: url('https://gitlab.com/mariellenils/PicNic/-/tree/main/fonts/webfonts') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -169,8 +169,8 @@ text-decoration:none;
 color: black;
 display: block;
 padding:0 1em ;
-font-size: 30px;
-font-size: clamp(24px,4vw,60px);
+font-size: 56px;
+/* font-size: clamp(24px,4vw,60px); */
 font-weight:bold;
 font-family:'CWDangamAsac-Bold', PicNic, Arial, Helvetica;
 -webkit-text-size-adjust: auto;
@@ -182,11 +182,12 @@ font-family:'CWDangamAsac-Bold', PicNic, Arial, Helvetica;
 color: black;
 display: block;
 padding: 0 0.3em;
-font-size: 23.8px;
+font-size: 22.6px;
 /* font-size: clamp(24px,4vw,60px); */
 font-weight: bold;
 font-family:  'PicNic-Regular', Arial, Helvetica;
 -webkit-text-size-adjust: auto;
+margin-left:0%
     } 
 }
 
@@ -206,7 +207,7 @@ color:red;
    .header{
     display:grid;
     grid-template-columns: 20% 80%;
-    align-items: center;
+    align-items:center;
    }
 }
 
