@@ -11,10 +11,19 @@ selecteur {
 }
 @font-face {
     font-family: 'PicNic-Regular';
-    src: url('https://gitlab.com/mariellenils/PicNic/-/tree/main/fonts/webfonts') format('woff');
+    src: url('https://velvetyne.fr/fonts/picnic/download/') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: local('Pretendard Variable'), url('./woff2/PretendardVariable.woff2') format('woff2-variations');
+}
+
 
 
 hr{
@@ -129,7 +138,7 @@ hr{
         right: 3rem; 
         cursor: pointer; 
         font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Pretendard Variable',Arial, Helvetica, sans-serif;
         text-align: right;
         font-weight:bold;
         color : black;
@@ -140,7 +149,7 @@ hr{
             right: 0rem; 
             cursor: pointer; 
             font-size: 10px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Pretendard Variable',Arial, Helvetica, sans-serif;
             text-align: left;
             font-weight:bold;
             color : black;
@@ -168,26 +177,26 @@ text-align: center;
 text-decoration:none;
 color: black;
 display: block;
-padding:0 1em ;
-font-size: 56px;
-/* font-size: clamp(24px,4vw,60px); */
-font-weight:bold;
-font-family:'CWDangamAsac-Bold', PicNic, Arial, Helvetica;
+padding:0 2.5em ;
+/* font-size: 50px; */
+font-size: clamp(30px,4vw,40px);
+font-weight:800;
+font-family:'Pretendard Variable','CWDangamAsac-Bold', PicNic, Arial, Helvetica;
 -webkit-text-size-adjust: auto;
 }
 
-@media (max-width:870px){
+@media (max-width:1318px){
     #topMenu .menuLink{
         text-decoration:none;
 color: black;
 display: block;
 padding: 0 0.3em;
-font-size: 22.6px;
+font-size: 22px;
 /* font-size: clamp(24px,4vw,60px); */
-font-weight: bold;
-font-family:  'PicNic-Regular', Arial, Helvetica;
+font-weight: 700;
+font-family: 'Pretendard Variable',GT Pressura Trial, 'PicNic-Regular', Helvetica;
 -webkit-text-size-adjust: auto;
-margin-left:0%
+word-spacing:-50px;
     } 
 }
 
@@ -260,17 +269,17 @@ h1{
 
 h3{
     font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Pretendard Variable', Arial, Helvetica, sans-serif;
     color: black;
-    font-weight: 100;
+    font-weight: 500;
     align-content: flex-start;
 }
 
 @media (max-width:420px){
     h3{font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Pretendard Variable',Arial, Helvetica, sans-serif;
         color: black;
-        font-weight: 100;
+        font-weight: 500;
         align-content: flex-start;
     }
 }
@@ -285,28 +294,29 @@ p1{
 h4{
     font-size: 20px;
     font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Pretendard Variable',Arial, Helvetica, sans-serif;
     text-align: left;
     line-height: 150%;
+    font-weight:500;
     align-content: flex-start;
     
 }
 
 @media (max-width:420px){
     h4{font-size: 10px;
-        font-weight: lighter;
-        font-family: Arial, Helvetica, sans-serif;
+        font-weight:500;
+        font-family:'Pretendard Variable', Arial, Helvetica, sans-serif;
         text-align: left;
         line-height: 125%;
         align-content: flex-start;
-        margin-right: 4%;
+        margin-right: 3%;
         margin-left:3%
     }
 }
 
 h5{
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Pretendard Variable',Arial, Helvetica, sans-serif;
     text-align: right;
     font-weight:bold;
 }
@@ -314,7 +324,7 @@ h5{
 
 @media (max-width:415px){
    h5{ font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Pretendard Variable', Arial, Helvetica, sans-serif;
     text-align: right;
     font-weight:bold;
    margin-top: 0%;
@@ -324,10 +334,15 @@ h5{
 }
 }
 
-
 .body-title{
     justify-self:left;
     align-self:auto;
     grid-column: 1/2;
 }
 
+mark{
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Pretendard Variable';
+    font-weight: 500;
+}
