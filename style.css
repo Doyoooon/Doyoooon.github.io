@@ -171,7 +171,7 @@ display: block;
 padding:0 1em ;
 font-size: 30px;
 font-size: clamp(24px,4vw,60px);
-font-weight: bold;
+font-weight:bold;
 font-family:'CWDangamAsac-Bold', PicNic, Arial, Helvetica;
 -webkit-text-size-adjust: auto;
 }
@@ -182,10 +182,10 @@ font-family:'CWDangamAsac-Bold', PicNic, Arial, Helvetica;
 color: black;
 display: block;
 padding: 0 0.3em;
-font-size: 24.1px;
+font-size: 23.8px;
 /* font-size: clamp(24px,4vw,60px); */
 font-weight: bold;
-font-family: 'PicNic-Regular', Arial, Helvetica;
+font-family:  'PicNic-Regular', Arial, Helvetica;
 -webkit-text-size-adjust: auto;
     } 
 }
@@ -266,7 +266,7 @@ h3{
 }
 
 @media (max-width:420px){
-    h3{font-size: 30px;
+    h3{font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         color: black;
         font-weight: 100;
@@ -298,7 +298,7 @@ h4{
         text-align: left;
         line-height: 125%;
         align-content: flex-start;
-        margin-right: 3%;
+        margin-right: 4%;
         margin-left:3%
     }
 }
