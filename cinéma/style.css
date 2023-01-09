@@ -1,0 +1,157 @@
+   /* @font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Eulyoo1945';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945Regular.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Eulyoo1945';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/eulyoo/Eulyoo1945SemiBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 15fr 75fr;
+    /* grid-gap:24px; */
+    /* gap:20px; */
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 40fr 60fr;
+    grid-gap:24px;
+    /* gap:20px; */
+    padding-left: 24px;
+    padding-top: 10px;
+    position:relative;
+    padding-right: 24px;
+    text-align:left;
+
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+    grid-gap:24px;
+    /* gap:20px; */
+    padding-left: 24px;
+    padding-top: 10px;
+    position:relative;
+    padding-right: 24px;
+    text-align:left;
+
+}
+
+h1{
+    font-family: 'Eulyoo1945', serif;
+    font-size : 25px;
+    font-weight: 600;
+    color:black;
+    text-align:center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-family: 'Eulyoo1945' , serif;
+    font-size : 17.5px;
+    line-height: 120%;
+}
+
+h3{
+    font-family: 'Eulyoo1945', serif;
+    font-size : 17.5px;
+    line-height: 150%;
+    vertical-align: top;
+}
+
+h4{
+    font-family: 'Eulyoo1945', serif;
+    font-size : 50px;
+    font-weight: bold;
+    padding-left:20px ;
+    margin-top: 10px;
+    display:block;
+    margin-bottom: 0;
+
+}
+
+h5{
+    font-family: 'Eulyoo1945', serif;
+    font-size : 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-left:20px ;
+    margin-top: 10px;
+    display:block;
+    line-height: 150%;
+    margin-top: 25px;
+
+
+}
+
+
+header{
+    position:relative;
+    padding: 8px;
+    border-right: 1px solid black;
+    grid-row: 1/6;
+    /* position: */
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+}
+
+.image{
+    /* max-width: 1200px; */
+    /* position: relative; */
+    padding-top: 0;
+   margin-top: 0;
+   
+
+}
+
+mark{
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Eulyoo1945', 'Exposure Trial -20' ,'Pretendard Variable', Helvetica, serif;
+    font-size : 20px;
+    font-weight:600;
+   /* text-align: justify; */
+   justify-items:space-between;
+    position:absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+
+}
